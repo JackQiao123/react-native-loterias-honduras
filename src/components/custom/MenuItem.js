@@ -112,7 +112,11 @@ class MenuItem extends Component {
     const highlight = (CONFIG.VIEW_OPTIONS.MENU_PRIMARY_DISTINCTION || menu.menuType === MENU_TYPE.PRIMARY);
 
     return (
-      <TouchableOpacity style={[styles.menuItem, highlight ? styles.menuItemHighlight : null]} activeOpacity={0.6} onPress={this.props.onPress.bind(this, menu)}>
+      <TouchableOpacity 
+        style={[styles.menuItem, highlight ? styles.menuItemHighlight : null]} 
+        activeOpacity={menu.icon === undefined ? 1 : 0.6} 
+        onPress={menu.icon === undefined ? () => {} : this.props.onPress.bind(this, menu)}
+      >
         {
           menu ? (
             <View style={[styles.menuItemMain]}>
@@ -132,7 +136,11 @@ class MenuItem extends Component {
               </View>
             ) : null
           }
-          <Icon style={[styles.menuItemRightIcon, highlight ? styles.menuItemRightIconHilight : null]} name="angle-right" />
+          {
+            menu.icon !== undefined && (
+              <Icon style={[styles.menuItemRightIcon, highlight ? styles.menuItemRightIconHilight : null]} name="angle-right" />
+            )
+          }
         </View>
       </TouchableOpacity>
     );

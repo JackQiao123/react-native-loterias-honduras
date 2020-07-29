@@ -42,7 +42,7 @@ class HomeScreen extends Component {
     return (
       <MenuItem
         menu={item}
-        onPress={this.props.onMenuPress}
+        onPress={item.data ? this.props.onMenuPress : () => {}}
       />
     );
   }

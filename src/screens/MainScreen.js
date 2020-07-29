@@ -239,7 +239,7 @@ class MainScreen extends Component {
           <HomeScreen
             ref={(ref) => { this.currentScreen = ref; }}
             menu={menuItem}
-            onMenuBackPress={this.onMenuBackPress.bind(this)}
+            onMenuBackPress={this.onHomePress.bind(this)}
             onMenuPress={this.onMenuPress.bind(this)}
           />
         );
@@ -248,7 +248,7 @@ class MainScreen extends Component {
           <GameScreen
             ref={(ref) => { this.currentScreen = ref; }}
             menu={menuItem}
-            onMenuBackPress={this.onMenuBackPress.bind(this)}
+            onMenuBackPress={this.onHomePress.bind(this)}
             onMenuPress={this.onMenuPress.bind(this)}
           />
         );
