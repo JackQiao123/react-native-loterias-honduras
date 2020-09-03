@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "20395060889",
+    "firebase_url": "https://loteriasdehonduras-mrl.firebaseio.com",
+    "project_id": "loteriasdehonduras-mrl",
+    "storage_bucket": "loteriasdehonduras-mrl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20395060889:android:2d9d701dc7ca7e280f5208",
+        "android_client_info": {
+          "package_name": "com.kiskoo.loterias.honduras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20395060889-s9ocald79p1n4jbdf2aj77tit3epit3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWXpsPLM9n2_ft-7XUn6nRPXXq75Sf39Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20395060889-s9ocald79p1n4jbdf2aj77tit3epit3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

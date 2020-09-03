@@ -11,12 +11,12 @@ const config = {
     REWARDED_MAX: 4,
     SECRETS: Platform.select({
       ios: {
-        BANNER: 'ca-app-pub-1196303242456869/1822774033',
-        INTERSTITIAL: 'ca-app-pub-1196303242456869/9595316835'
+        BANNER: 'ca-app-pub-1196303242456869/9833359636',
+        INTERSTITIAL: 'ca-app-pub-1196303242456869/2310092831'
       },
       android: {
-        BANNER: 'ca-app-pub-1196303242456869/7869307636',
-        INTERSTITIAL: 'ca-app-pub-1196303242456869/8118583631'
+        BANNER: 'ca-app-pub-1196303242456869/5403160031',
+        INTERSTITIAL: 'ca-app-pub-1196303242456869/6879893233'
       }
     })
   },

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.loterias">
+  package="com.kiskoo.loterias.honduras">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
